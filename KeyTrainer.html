@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клавиатурный тренажер. Разработчик: Ивкин Лев&copy;</title>
+    <link rel="stylesheet" href="KeyTrainer.css">
+</head>
+<body>
+    <div id="header">
+        <a href="index.html">Главная</a>
+        <span>/</span>
+
+        <a href="Test.html">Тест</a>
+        <span>/</span>
+
+        <a href="guess1.html">Угадай число</a>
+        <span>/</span>
+
+        <a href="KeyTrainer.html">Клавиатурный тренажер</a>
+    <span></span>
+
+    </div>
+    <h1 id="headline">Клавиатурный тренажер</h1>
+    <div class="game-container">
+        <div class="falling-key" id="fallingKey"></div>
+        <div class="score">Очки: <span id="score">0</span></div>
+        <div class="timer">Осталось времени: <span id="timer">5</span> сек</div>
+        <div class="number">Номер клавиши: <span id="number"></span></div>
+        <div id="unused" class="unused"></div>
+    </div>
+    <button id="startGame" type="button" onclick="startGame()">Start</button>
+    <script src="KeyTrainer.js"></script>
+</body>
+</html>

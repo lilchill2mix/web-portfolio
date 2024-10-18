@@ -1,0 +1,96 @@
+.variant
+{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.task
+{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.table
+{
+width: 90%;
+margin: auto;
+background:white;
+border-collapse: separate; 
+border-spacing: 10px; 
+margin-bottom: 20px; 
+padding-bottom: 10;
+border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  display: block;
+}
+
+th, td
+{
+    border-spacing: 0 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+html {
+    background-image: url(https://avatars.mds.yandex.net/i?id=50ea6116935e2264aec9c181c83ac24d_l-9182252-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .answer{
+
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .check
+  {
+    background-color: blue; /* Синий цвет заливки */
+            color: white; /* Белый текст */
+            padding: 10px 20px; /* Отступы вокруг текста */
+            border: none; /* Без границы */
+            border-radius: 5px; /* Скругление углов */
+            font-size: 25px; /* Размер шрифта */
+            cursor: pointer; /* Курсор-указатель при наведении */
+            transition: background-color 0.3s; /* Плавный переход цвета фона */
+            display: flex;
+    margin: 0 auto;
+
+  }
+  .check:hover {
+    background-color: lightblue; /* ��вет заливки при наведении */
+  }
+
+  .result_{
+    background-color: white; /* Цвет фона */
+            border-radius: 15px; /* Закругленные углы */
+            padding: 20px;
+            margin-top: 10px; /* Отступы внутри параграфа */
+            margin: auto; /* Отступы снаружи */
+            text-align: center; /* Центрирование текста */
+            width: 30%; /* Ширина параграфа */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для эффекта */
+            font-size: 20px;
+  }
+
+  .headline{
+    color: white;
+    font-size: 30px;
+    ;
+  }
